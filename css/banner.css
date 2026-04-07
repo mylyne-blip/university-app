@@ -1,0 +1,47 @@
+/* ===== BANNER SECTION ===== */
+.banner {
+    background: linear-gradient(rgba(42, 82, 152, 0.5), rgba(30, 60, 114, 0.5)), 
+                url('../images/students-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.banner-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+.btn-cta {
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 188, 212, 0.3);
+}
+
+.btn-cta:hover {
+    background-color: #00a8cc;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 188, 212, 0.4);
+}
