@@ -1,2 +1,2 @@
-# university-app
-a university
+# university app
+
